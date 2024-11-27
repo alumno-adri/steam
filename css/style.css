@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "motiva";
+    src: url(../font/MotivaSans-Regular.ttf);
+}
+
+body {
+    background-image: url(../img/fondo.jpeg);
+    background-size: cover; 
+    margin: 0;
+    color: white;
+    font-family: "motiva";
+    background-color:#171d25;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+header{
+    background-color: #171d25;
+    padding: 10px 0 20px 0;
+}
+
+nav ul,
+nav li {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 6px;
+}
+
+.bg-green{
+    background-color: #6c9018;
+}
+
+.text-blue{
+    color: #1a8de8;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-small{
+    font-size: 11px;
+}
+
+main{
+    width: 50%;
+    margin: 100px auto 0 auto;
+}
+.bg-dark{
+    background-color: #171d25;
+}
+.col-60{
+    width: 60%;
+}
+.col-30{
+    width: 30%;
+}
+.box-form{
+    width: 100%;
+    background-color: #393c44;
+    padding: 14px 0;
+    border: 0;
+}
+.p-40{
+    padding: 40px;
+}
+main h6{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.btn{
+    border:0;
+}
+.btn-blue{
+    padding: 8px 0;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(6, 191, 255) 0%, rgb(45, 115, 255) 100%);
+    font-size: 15px;
+    width: 60%;
+}
+a{
+    color: white;
+
+}
+
+.rounded-1{
+    border-radius: 4px;
+}
+.rounded-2{
+    border-radius: 8px;
+}
+
+footer{
+    margin-top: 150px;
+}
